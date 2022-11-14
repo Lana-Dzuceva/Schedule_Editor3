@@ -9,20 +9,27 @@ namespace SheduleEditorV2
 {
     public class ListGroups
     {
-        List<Group> groups;
+        public List<Group> groups;
 
         public List<Group> Groups
         {
             get;
             set;
         }
+        public ListGroups()
+        {
+            groups = new List<Group>();
+        }
     }
 
     public class Group
     {
-        List<AcademicClass> classes; // ScheduleAcademicClass
+        public List<AcademicClass> classes; // ScheduleAcademicClass
 
-        
+        public Group()
+        {
+            classes = new List<AcademicClass>();
+        }
     }
     public enum ClassType
     {
@@ -36,13 +43,22 @@ namespace SheduleEditorV2
     }
     public class AcademicClass
     {
-        string classTitle;
-        Teacher teacher;
-        int hours;
-        ClassType type;
-        SubGroup subGroup;
+        public string classTitle;
+        public Teacher teacher;
+        public int hours;
+        public ClassType type;
+        public SubGroup subGroup;
 
         public AcademicClass() { }
+        public AcademicClass(string classTitle, Teacher teacher, int hours, ClassType type, SubGroup subGroup)
+        { 
+            this.classTitle = classTitle;   
+            this.teacher = teacher;
+            this.hours = hours;
+            this.type = type;
+            this.subGroup = subGroup;
+
+        }
 
         public SubGroup SubGroup
         {
@@ -84,7 +100,7 @@ namespace SheduleEditorV2
         WeekDay weekDay;
         int ClassNumber;
 
-        public ScheduleAcademicClass(): base()
+        public ScheduleAcademicClass() : base()
         {
 
         }
@@ -99,8 +115,12 @@ namespace SheduleEditorV2
     }
     public class Teacher
     {
-        string name;
+        public string name;
 
+        public Teacher(string name)
+        {
+            this.name = name;
+        }
     }
 
 }

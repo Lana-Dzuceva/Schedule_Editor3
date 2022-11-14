@@ -9,3 +9,6 @@ D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.csproj.Gener
 D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.csproj.CoreCompileInputs.cache
 D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.exe
 D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.pdb
+D:\CSharp\SheduleEditorV2\SheduleEditorV2\bin\Debug\SpannedDataGridView.exe
+D:\CSharp\SheduleEditorV2\SheduleEditorV2\bin\Debug\SpannedDataGridView.pdb
+D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.csproj.CopyComplete
