@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using SpannedDataGridView;
+using ScheduleEditorClassLibrary;
 
 namespace SheduleEditorV2
 {
@@ -127,22 +128,33 @@ namespace SheduleEditorV2
             }
         }
 
-        public ListGroups hmm()
+        public FacultyGroups hmm()
         {
-            ListGroups listGroups = new ListGroups();
+            FacultyGroups listGroups = new FacultyGroups();
 
             for (int i = 0; i < 5; i++)
             {
                 Group group = new Group();
                 for (int r = 0; r < 5; r++)
                 {
-                    AcademicClass academicClass = new AcademicClass("title", new Teacher("teacher"), 1, ClassType.Lecture, SubGroup.first);
+                    var teacher = new Teacher();
+                    teacher.Name = "teacher";
+                    AcademicClass academicClass = new AcademicClass("title", teacher, 1, ClassType.Lecture, SubGroup.first);
+                    group.classes = new List<AcademicClass>();
                     group.classes.Add(academicClass);
                 }
-                listGroups.groups.Add(group);
+                listGroups.Groups = new List<Group>();
+                listGroups.Groups.Add(group);  
             }
             
             return listGroups;
+        }
+
+        private void TeacherPreferencesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hmm");
+            var f = new FormTeacherPreferences();
+            f.Show();
         }
     }
 }

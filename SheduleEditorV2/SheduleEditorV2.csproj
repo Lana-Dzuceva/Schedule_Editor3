@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes.cs" />
     <Compile Include="ClassScheduleError.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
@@ -54,10 +53,19 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTeacherPreferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeacherPreferences.Designer.cs">
+      <DependentUpon>FormTeacherPreferences.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeacherPreferences.resx">
+      <DependentUpon>FormTeacherPreferences.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,6 +91,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ModuleDataLoad\ScheduleEditorClassLibrary\ScheduleEditorClassLibrary.csproj">
+      <Project>{e00f2eeb-1e70-46a1-b45a-5bd7570febca}</Project>
+      <Name>ScheduleEditorClassLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SpannedDataGridView\SpannedDataGridView2010.csproj">
       <Project>{c2f0b723-17d0-4c11-8847-119d35f5da8f}</Project>
       <Name>SpannedDataGridView2010</Name>

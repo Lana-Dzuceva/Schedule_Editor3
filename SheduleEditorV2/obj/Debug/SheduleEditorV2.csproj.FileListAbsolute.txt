@@ -12,3 +12,6 @@ D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.pdb
 D:\CSharp\SheduleEditorV2\SheduleEditorV2\bin\Debug\SpannedDataGridView.exe
 D:\CSharp\SheduleEditorV2\SheduleEditorV2\bin\Debug\SpannedDataGridView.pdb
 D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.csproj.CopyComplete
+D:\CSharp\SheduleEditorV2\SheduleEditorV2\bin\Debug\ScheduleEditorClassLibrary.dll
+D:\CSharp\SheduleEditorV2\SheduleEditorV2\bin\Debug\ScheduleEditorClassLibrary.pdb
+D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.FormTeacherPreferences.resources

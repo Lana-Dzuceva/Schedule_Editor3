@@ -36,6 +36,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.хммToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.предпочтенияУчителейToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -123,7 +124,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.хммToolStripMenuItem,
-            this.toolStripMenuItem1});
+            this.toolStripMenuItem1,
+            this.предпочтенияУчителейToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -140,6 +142,13 @@
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 20);
+            // 
+            // предпочтенияУчителейToolStripMenuItem
+            // 
+            this.предпочтенияУчителейToolStripMenuItem.Name = "предпочтенияУчителейToolStripMenuItem";
+            this.предпочтенияУчителейToolStripMenuItem.Size = new System.Drawing.Size(151, 20);
+            this.предпочтенияУчителейToolStripMenuItem.Text = "предпочтения учителей";
+            this.предпочтенияУчителейToolStripMenuItem.Click += new System.EventHandler(this.TeacherPreferencesToolStripMenuItem_Click);
             // 
             // FormMain
             // 
@@ -178,6 +187,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem хммToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem предпочтенияУчителейToolStripMenuItem;
     }
 }
 
