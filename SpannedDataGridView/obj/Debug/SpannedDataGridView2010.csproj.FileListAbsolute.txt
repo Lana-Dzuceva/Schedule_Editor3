@@ -1,0 +1,9 @@
+C:\Users\admin\Source\Repos\Schedule_Editor\SpannedDataGridView\bin\Debug\SpannedDataGridView.exe
+C:\Users\admin\Source\Repos\Schedule_Editor\SpannedDataGridView\bin\Debug\SpannedDataGridView.pdb
+C:\Users\admin\Source\Repos\Schedule_Editor\SpannedDataGridView\obj\Debug\SpannedDataGridView2010.csproj.AssemblyReference.cache
+C:\Users\admin\Source\Repos\Schedule_Editor\SpannedDataGridView\obj\Debug\SpannedDataGridView.DemoForm.resources
+C:\Users\admin\Source\Repos\Schedule_Editor\SpannedDataGridView\obj\Debug\SpannedDataGridView.Properties.Resources.resources
+C:\Users\admin\Source\Repos\Schedule_Editor\SpannedDataGridView\obj\Debug\SpannedDataGridView2010.csproj.GenerateResource.cache
+C:\Users\admin\Source\Repos\Schedule_Editor\SpannedDataGridView\obj\Debug\SpannedDataGridView2010.csproj.CoreCompileInputs.cache
+C:\Users\admin\Source\Repos\Schedule_Editor\SpannedDataGridView\obj\Debug\SpannedDataGridView.exe
+C:\Users\admin\Source\Repos\Schedule_Editor\SpannedDataGridView\obj\Debug\SpannedDataGridView.pdb
