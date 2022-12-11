@@ -71,6 +71,7 @@ namespace SheduleEditorV2
             {
                 dataGridViewSchedule.Columns[i].SortMode = DataGridViewColumnSortMode.NotSortable;
             }
+            
         }
         public void DrawSchedule()
         {
@@ -130,24 +131,7 @@ namespace SheduleEditorV2
 
         public FacultyGroups hmm()
         {
-            FacultyGroups listGroups = new FacultyGroups();
-
-            for (int i = 0; i < 5; i++)
-            {
-                Group group = new Group();
-                for (int r = 0; r < 5; r++)
-                {
-                    var teacher = new Teacher();
-                    teacher.Name = "teacher";
-                    AcademicClass academicClass = new AcademicClass("title", teacher, 1, ClassType.Lecture, SubGroup.first);
-                    group.classes = new List<AcademicClass>();
-                    group.classes.Add(academicClass);
-                }
-                listGroups.Groups = new List<Group>();
-                listGroups.Groups.Add(group);  
-            }
             
-            return listGroups;
         }
 
         private void TeacherPreferencesToolStripMenuItem_Click(object sender, EventArgs e)

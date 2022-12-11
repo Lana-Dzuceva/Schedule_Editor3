@@ -15,3 +15,12 @@ D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.csproj.CopyC
 D:\CSharp\SheduleEditorV2\SheduleEditorV2\bin\Debug\ScheduleEditorClassLibrary.dll
 D:\CSharp\SheduleEditorV2\SheduleEditorV2\bin\Debug\ScheduleEditorClassLibrary.pdb
 D:\CSharp\SheduleEditorV2\SheduleEditorV2\obj\Debug\SheduleEditorV2.FormTeacherPreferences.resources
+C:\Users\admin\Source\Repos\Schedule_Editor3\SheduleEditorV2\obj\Debug\SheduleEditorV2.csproj.AssemblyReference.cache
+C:\Users\admin\Source\Repos\Schedule_Editor3\SheduleEditorV2\obj\Debug\SheduleEditorV2.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Source\Repos\Schedule_Editor3\SheduleEditorV2\obj\Debug\SheduleEditorV2.FormMain.resources
+C:\Users\admin\Source\Repos\Schedule_Editor3\SheduleEditorV2\obj\Debug\SheduleEditorV2.FormTeacherPreferences.resources
+C:\Users\admin\Source\Repos\Schedule_Editor3\SheduleEditorV2\obj\Debug\SheduleEditorV2.Properties.Resources.resources
+C:\Users\admin\Source\Repos\Schedule_Editor3\SheduleEditorV2\obj\Debug\SheduleEditorV2.csproj.GenerateResource.cache
+C:\Users\admin\Source\Repos\Schedule_Editor3\SheduleEditorV2\obj\Debug\SheduleEditorV2.csproj.CoreCompileInputs.cache
+C:\Users\admin\Source\Repos\Schedule_Editor3\SheduleEditorV2\obj\Debug\SheduleEditorV2.exe
+C:\Users\admin\Source\Repos\Schedule_Editor3\SheduleEditorV2\obj\Debug\SheduleEditorV2.pdb

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheduleEditorV2", "SheduleE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpannedDataGridView2010", "SpannedDataGridView\SpannedDataGridView2010.csproj", "{C2F0B723-17D0-4C11-8847-119D35F5DA8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleEditorClassLibrary", "..\ModuleDataLoad\ScheduleEditorClassLibrary\ScheduleEditorClassLibrary.csproj", "{E00F2EEB-1E70-46A1-B45A-5BD7570FEBCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleEditorClassLibrary", "D:\CSharp\ModuleDataLoad2\ScheduleEditorClassLibrary\ScheduleEditorClassLibrary.csproj", "{E00F2EEB-1E70-46A1-B45A-5BD7570FEBCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
