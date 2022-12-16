@@ -98,6 +98,7 @@
     <ProjectReference Include="D:\CSharp\ModuleDataLoad2\ScheduleEditorClassLibrary\ScheduleEditorClassLibrary.csproj">
       <Project>{e00f2eeb-1e70-46a1-b45a-5bd7570febca}</Project>
       <Name>ScheduleEditorClassLibrary</Name>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
