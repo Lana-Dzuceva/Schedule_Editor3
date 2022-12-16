@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SheduleEditorV2"
+    "\\SheduleEditorV2",
+    "\\SpannedDataGridView"
   ],
   "SelectedNode": "\\SheduleEditorV2\\FormTeacherPreferences.cs",
   "PreviewInSolutionExplorer": false
